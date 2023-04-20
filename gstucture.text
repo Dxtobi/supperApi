@@ -1,0 +1,21 @@
+├── app.js                    // Main application file
+├── package.json              // Node.js package file
+├── config
+│   ├── config.js             // Database configuration file
+│   └── passport.js           // Passport configuration file (optional)
+├── controllers
+│   ├── authController.js     // Authentication controller (optional)
+│   ├── userController.js     // User controller
+│   └── ...                   // Other controllers
+├── models
+│   ├── user.js               // User model
+│   └── ...                   // Other models
+├── routes
+│   ├── authRoutes.js         // Authentication routes (optional)
+│   ├── userRoutes.js         // User routes
+│   └── ...                   // Other routes
+├── middlewares
+│   ├── authMiddleware.js     // Authentication middleware (optional)
+│   ├── errorMiddleware.js    // Error handling middleware
+│   └── ...                   // Other middlewares
+the rest......
